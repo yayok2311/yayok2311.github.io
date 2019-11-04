@@ -30,17 +30,13 @@ body {
 }
 .sosmed {
     text-align: center;
-    padding-top: 0px;
+    padding-top: 55px;
 }
 .sosmed .img {
     width: 20%;
 }
 .sosmed .dessert {
     width: 467px;
-}
-.youtube {
-  text-align: center;
-  padding-top: 55px;
 }
 .logo {
     background: url(../images/bg.jpg);
@@ -90,6 +86,20 @@ body {
     
     
 }
+.content-left {
+  /* float: left; */
+  display: inline-block;
+  width: 45%;
+  height: auto;
+  text-align: left;
+}
+.content-right {
+  float: right;
+  width: 50%;
+  height: auto;
+  
+}
+
 
 
 /*menu*/
@@ -127,8 +137,8 @@ nav ul li a {
   display: inline-block;
   overflow: hidden;
   margin: 10px;
-  min-width: 230px;
-  max-width: 315px;
+  min-width: 80%;
+  max-width: 80%;
   width: 100%;
   color: #ffffff;
   font-size: 16px;
@@ -156,7 +166,7 @@ nav ul li a {
 }
 .snip1584 img {
   vertical-align: top;
-  max-width: 100%;
+  width: 90%;
   backface-visibility: hidden;
 }
 .snip1584 figcaption {
@@ -241,4 +251,5 @@ footer {
 	border-right: 1px solid silver;
     border-left: 1px solid silver;
 }
+
 
